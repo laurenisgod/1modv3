@@ -214,4 +214,4 @@ client.on("messageUpdate", async (oldMsg, newMsg, message) => {
   }
 });
 
-client.login(ayarlar.token);
+client.login(process.env.token);            
